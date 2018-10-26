@@ -1,0 +1,48 @@
+<div class="side-form">
+    <div class="card m-0 has-no-border restaurant-map">
+        <div class="card-body p-0 restaurant-map">
+            <agm-map [zoom]="14" [latitude]="restaurantDetail?.location?.lat" [longitude]="restaurantDetail?.location?.lng">
+                <agm-marker [latitude]="restaurantDetail?.location?.lat"
+                            [longitude]="restaurantDetail?.location?.lng"
+                            [label]="{text:restaurantDetail?.name, fontFamily: 'AvenirNext-DemiBold', fontSize: '14px', fontWeight: 'bold', color: '#00000'}">
+                </agm-marker>
+            </agm-map>
+        </div>
+    </div>
+
+    <div class="card m-0 has-no-border restaurant-body">
+        <div class="card-body p-0 restaurant-body">
+            <div class="detail-header bg-restaurant">
+                <div class="detail-header-name">
+                    <div class="rest-name">
+                        {{restaurantDetail?.name}}
+                    </div>
+                    <div class="rest-category">
+                        {{restaurantDetail?.category}}
+                    </div>
+                </div>
+            </div>
+            <div class="detail-header-name">
+                <div class="restaurant-detail">
+                    {{restaurantDetail?.location?.formattedAddress[0]}}
+                </div>
+                <div class="restaurant-detail">
+                    {{restaurantDetail?.location?.formattedAddress[1]}}
+                </div>
+                <div class="detail-header-other">
+                    {{restaurantDetail?.contact?.formattedPhone}}
+                </div>
+                <div *ngIf="restaurantDetail?.contact?.twitter" class="detail-header-other">
+                    @{{restaurantDetail?.contact?.twitter}}
+                </div>
+            </div>
+            <div class="detail-header-name">
+                <div class="restaurant-detail">
+                    <a [href]="googleDrivingURL" target="_blank">
+                        Driving Directions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

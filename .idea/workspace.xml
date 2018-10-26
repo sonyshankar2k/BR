@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68c939aa-692a-45d8-9281-505eb32a441f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sakrishna.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_animations/fade-in.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_animations/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_animations/slide-in-out.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_content/app.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_services/data-pub-sub.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_services/data-pub-sub.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_services/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_services/restaurant-list.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_services/restaurants.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact/contact.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact/contact.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact/contact.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact/contact.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact/contact.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/footer/footer.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/header/header.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/header/header.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-detail/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-list/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/restaurant-list/restaurant-list.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Hire-Us-header-1600x667.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bottlerocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cellGradientBackground@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ic_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ic_webBack@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ic_webForward@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ic_webRefresh@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon_map@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tab_internets@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tab_lunch@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systemjs.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_content/variable.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/_content/variable.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/footer/footer.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/footer/footer.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/footer/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/footer/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/interface/restaurant.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/interface/restaurant.interface.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1885839071">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="46" />
+          <entry key="js" value="6" />
+          <entry key="json" value="3" />
+          <entry key="less" value="26" />
+          <entry key="png" value="2" />
+          <entry key="ts" value="169" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="46" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="6" />
+          <entry key="Less" value="26" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="169" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="599" />
+          <entry key="js" value="27" />
+          <entry key="less" value="404" />
+          <entry key="ts" value="837" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="599" />
+          <entry key="JavaScript" value="27" />
+          <entry key="Less" value="404" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="TypeScript" value="837" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="82" lean-forward="true" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemjs.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_services/restaurant-list.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="85" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_content/app.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_content/variable.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getRestaurantDetails restaurant</find>
+      <find>this.restaurantDetailSubscription.unsubscribe</find>
+      <find>getRestaurantDetails</find>
+      <find>getRestaurantListgetRestaurantList</find>
+      <find>Router</find>
+      <find>ActivatedRoute</find>
+      <find>$font-stack</find>
+      <find>'AvenirNext-DemiBold'</find>
+      <find>restaurantDetails</find>
+      <find>background</find>
+      <find>#43E895</find>
+      <find>restaurants-table</find>
+      <find>restaurant</find>
+      <find>side-form</find>
+      <find>restaurant-name</find>
+      <find>@background-color</find>
+      <find>restaurant-body</find>
+      <find>bg-restaurant</find>
+      <find>showBackIcon</find>
+      <find>restaurant-category</find>
+      <find>navbar-header</find>
+      <find>rest-category</find>
+      <find>detail-header</find>
+      <find>rest-name</find>
+      <find>@font-stack</find>
+      <find>font-stack-bold</find>
+      <find>./assets/icon_map@2x.pn</find>
+      <find>detail-header-name</find>
+      <find>//</find>
+      <find>restaurant-detail</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>dataPubSubService</replace>
+      <replace>$font-stack</replace>
+      <replace>@font-stack</replace>
+      <replace>showBackIcon</replace>
+      <replace>@font-color</replace>
+      <replace>@background-color</replace>
+      <replace>@font-stack-bold</replace>
+      <replace>.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/contact/index.ts" />
+        <option value="$PROJECT_DIR$/test.ts" />
+        <option value="$PROJECT_DIR$/polyfills.ts" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/app/main.ts" />
+        <option value="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.spec.ts" />
+        <option value="$PROJECT_DIR$/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/app/header/header.module.ts" />
+        <option value="$PROJECT_DIR$/app/header/header.component.spec.ts" />
+        <option value="$PROJECT_DIR$/app/footer/footer.component.spec.ts" />
+        <option value="$PROJECT_DIR$/app/contact/contact.component.spec.ts" />
+        <option value="$PROJECT_DIR$/app/contact/contact.component.less" />
+        <option value="$PROJECT_DIR$/app/_services/restaurants.service.spec.ts" />
+        <option value="$PROJECT_DIR$/app/_services/restaurant-list.service.ts" />
+        <option value="$PROJECT_DIR$/app/_services/pub-sub.service.ts" />
+        <option value="$PROJECT_DIR$/app/_services/product.service.ts" />
+        <option value="$PROJECT_DIR$/app/_services/data.service.spec.ts" />
+        <option value="$PROJECT_DIR$/app/_animations/fade-in.animation.ts" />
+        <option value="$PROJECT_DIR$/app/_animations/slide-in-out.animation.ts" />
+        <option value="$PROJECT_DIR$/app/app.component.html" />
+        <option value="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.spec.ts" />
+        <option value="$PROJECT_DIR$/app/contact/contact.component.html" />
+        <option value="$PROJECT_DIR$/app/_services/data.service.ts" />
+        <option value="$PROJECT_DIR$/app/restaurant-list/restaurant-list.module.ts" />
+        <option value="$PROJECT_DIR$/app/_services/index.ts" />
+        <option value="$PROJECT_DIR$/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/header/header.component.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.module.ts" />
+        <option value="$PROJECT_DIR$/app/footer/footer.module.ts" />
+        <option value="$PROJECT_DIR$/app/footer/footer.component.html" />
+        <option value="$PROJECT_DIR$/app/footer/footer.component.ts" />
+        <option value="$PROJECT_DIR$/app/contact/contact.module.ts" />
+        <option value="$PROJECT_DIR$/app/contact/contact.component.ts" />
+        <option value="$PROJECT_DIR$/app/interface/restaurant.interface.ts" />
+        <option value="$PROJECT_DIR$/app/_services/data-pub-sub.service.ts" />
+        <option value="$PROJECT_DIR$/app/header/header.component.html" />
+        <option value="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.html" />
+        <option value="$PROJECT_DIR$/app/header/header.component.less" />
+        <option value="$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.less" />
+        <option value="$PROJECT_DIR$/app/restaurant-detail/variable.less" />
+        <option value="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.less" />
+        <option value="$PROJECT_DIR$/app/_content/variable.less" />
+        <option value="$PROJECT_DIR$/systemjs.config.js" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.html" />
+        <option value="$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.ts" />
+        <option value="$PROJECT_DIR$/app/_content/app.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="_content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurant-detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurant-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sakrishna/Desktop/Sankar/Sankar/bottlerocket/BRPlnker/Project/app/restaurant-detail/restaurant-detail.component.ts" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/footer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68c939aa-692a-45d8-9281-505eb32a441f" name="Default Changelist" comment="" />
+      <created>1540486560112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540486560112</updated>
+      <workItem from="1540486562874" duration="30510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30510000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <layout>
+      <window_info id="npm" sideWeight="0.5005848" side_tool="true" weight="0.29113925" />
+      <window_info id="Favorites" sideWeight="0.5008726" side_tool="true" visible="true" weight="0.29113925" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991274" visible="true" weight="0.29113925" />
+      <window_info id="Structure" order="1" sideWeight="0.5005848" side_tool="true" weight="0.29113925" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982457" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test.ts</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/footer/footer.component.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_services/data-pub-sub.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_animations/fade-in.animation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_animations/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_animations/slide-in-out.animation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header/header.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_services/restaurants.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_services/product.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_services/pub-sub.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_services/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/footer/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-list/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-detail/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header/header.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/footer/footer.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/footer/footer.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/footer/footer.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact/contact.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact/contact.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact/contact.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact/contact.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact/contact.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/interface/restaurant.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_services/data-pub-sub.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-list/restaurant-list.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header/header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header/header.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-detail/variable.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_services/restaurant-list.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="85" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemjs.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="82" lean-forward="true" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-list/restaurant-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/restaurant-detail/restaurant-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_content/variable.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_content/app.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,7 +1,7 @@
 import {CommonModule} from "@angular/common";
 import {NgModule} from '@angular/core';
 import {BrowserModule} from "@angular/platform-browser";
-import {FooterComponent} from "./footer.component";
+import {ContactComponent} from "./contact.component";
 
 @NgModule({
     imports: [
@@ -9,17 +9,17 @@ import {FooterComponent} from "./footer.component";
         CommonModule
     ],
     declarations: [
-        FooterComponent
+        ContactComponent
     ],
     exports: [
-        FooterComponent
+        ContactComponent
     ],
     entryComponents: [
-        FooterComponent
+        ContactComponent
     ],
     providers: [
     ]
 })
 
-export class HeaderModule {
+export class ContactModule {
 }

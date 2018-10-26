@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-*-12">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-header fixed-top p-0 m-0">
+            <div class="mx-auto">
+                <span>
+                    <a [ngClass]="!showBackIcon ? 'hide-back-icon' : 'show-back-icon'" class="navbar-brand" href="javascript:void(0);" (click)="goBack()">
+                        <img src="./assets/ic_webBack@2x.png" alt="Go Back" height="25px">
+                    </a>
+                </span>
+                <span>
+                    <a class="m-2" href="javascript:void(0);" (click)="refresh()">
+                        <img src='./assets/ic_webRefresh@2x.png' alt="Refresh" height="25px">
+                    </a>
+                    <!--<a class="m-2" href="javascript:void(0);" (click)="goNext()">-->
+                    <!--<img src='./assets/ic_webForward@2x.png' alt="Go Forward" height="25px">-->
+                    <!--</a>-->
+                </span>
+            </div>
+            <div class="mx-auto">
+                <span class="navbar-text text-white pl-2 pr-2 header-title">
+                    Lunch Tyme
+                </span>
+            </div>
+            <div class="mx-auto">
+                <a class="navbar-brand" [routerLink]="['restaurant-contact']">
+                    <img src='./assets/icon_map@2x.png' alt="" height="50px">
+                </a>
+            </div>
+        </nav>
+    </div>
+</div>

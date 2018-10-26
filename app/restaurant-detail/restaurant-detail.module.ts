@@ -1,7 +1,8 @@
 import {CommonModule} from "@angular/common";
 import {NgModule} from '@angular/core';
 import {BrowserModule} from "@angular/platform-browser";
-import {FooterComponent} from "./footer.component";
+import {RestaurantDetailComponent} from "./restaurant-detail.component";
+import {DataPubSubService} from "../_services/index";
 
 @NgModule({
     imports: [
@@ -9,17 +10,18 @@ import {FooterComponent} from "./footer.component";
         CommonModule
     ],
     declarations: [
-        FooterComponent
+        RestaurantDetailComponent
     ],
     exports: [
-        FooterComponent
+        RestaurantDetailComponent
     ],
     entryComponents: [
-        FooterComponent
+        RestaurantDetailComponent
     ],
     providers: [
+        DataPubSubService
     ]
 })
 
-export class HeaderModule {
+export class RestaurantDetailModule {
 }
